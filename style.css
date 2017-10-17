@@ -1,22 +1,51 @@
 body {
   position: relative;
   background-color: grey;
+  margin: 1%;
 }
 .full-screen {
-	height: 100vh;
+	max-height: 100vh;
+	overflow: overlay;
 }
-.name{
+.title-page{
 	display: block;
 	margin: auto;
-	height: 100%;
-	padding-top: 35%;
+	box-sizing: border-box;
+	padding-top: 50%;
+	padding-bottom: 25%;
 	text-align: center;
+}
+#title {
+	color: rgba(248, 249, 250, .7);
+	font-size: 45pt;
 }
 .center-title {
 	text-align: center;
 }
 header {
 	background-image: url(basscover1.jpg);
-	display: block;
 	background-repeat: no-repeat;
+	background-size: cover;
+}
+.biography {
+	background-color: white;
+	padding: 2em;
+	overflow: overlay;
+}
+.upcoming {
+	padding: 2em;
+}
+.headshot{
+	float: left;
+	margin-right: .5rem;
+}
+.event {
+	height: 300px;
+	padding: 10px;
+}
+.single-event {
+	margin: 5px;
+	border: 1px solid white;
+	height: 100%;
+
 }
