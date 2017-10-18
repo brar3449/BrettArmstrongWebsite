@@ -8,12 +8,11 @@ body {
 	overflow: overlay;
 }
 .title-page{
-	display: block;
-	margin: auto;
-	box-sizing: border-box;
 	padding-top: 50%;
 	padding-bottom: 25%;
 	text-align: center;
+	background-image: url(basscover1.jpg);
+	background-size: cover;
 }
 #title {
 	color: rgba(248, 249, 250, .7);
@@ -21,11 +20,6 @@ body {
 }
 .center-title {
 	text-align: center;
-}
-header {
-	background-image: url(basscover1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 .biography {
 	background-color: white;
@@ -48,4 +42,14 @@ header {
 	border: 1px solid white;
 	height: 100%;
 
+}
+.event-link {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	background-image: url(bassclef.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*border: 1px solid red;*/
 }
