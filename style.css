@@ -6,6 +6,9 @@ body {
 .full-screen {
 	max-height: 100vh;
 	overflow: overlay;
+	padding: .5rem;
+	padding-top: 3.5rem;
+
 }
 .title-page{
 	padding-top: 50%;
@@ -23,33 +26,41 @@ body {
 }
 .biography {
 	background-color: white;
-	padding: 2em;
 	overflow: overlay;
 }
 .upcoming {
-	padding: 2em;
+	
 }
 .headshot{
 	float: left;
 	margin-right: .5rem;
 }
 .event {
-	height: 300px;
 	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
 }
 .single-event {
 	margin: 5px;
-	border: 1px solid white;
+	border: 1px solid black;
 	height: 100%;
+	box-shadow: 2px 2px #6f6f6f;
 
 }
+.single-event a {
+	color: black;
+}
 .event-link {
-	width: 50%;
-	height: 50%;
+	width: 100%;
 	margin: auto;
-	background-image: url(bassclef.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	/*border: 1px solid red;*/
+	text-align: center;
+	padding: 1rem;
+}
+.hidden {
+	display: none;
+}
+.button {
+	margin: 1rem auto;
+	display: block;
+	margin-bottom: .5rem;
 }
